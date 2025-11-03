@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(#FFFFFF,#EBDCFF);
+}
+#banner{
+    display: flex;
+    margin: 100px auto 120px auto;
+    border: 2px solid #872bff10;
+    border-radius: 40px;
+    padding: 20px 30px;
+    background-image: url("/tour-mama-main/tour-mama-main/images/hero-bg.png");
+    width: 87.5%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.banner-image {
+  width: 50%;
+}
+.heading-content {
+  text-align: center;
+}
+.heading-content h4{
+    color:palevioletred;
+    font-weight: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.heading-content h2{
+    color: black;
+    font-weight: 20px;
+    margin-bottom: 30px;
+
+}
+.btn{
+    background-color: #872bff;
+    border-radius: 20px;
+    padding: 16px 32px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.btn-white{
+    /* background-color: #872bff; */
+    border-radius: 20px;
+    border: 2px solid  #872bff;
+    padding: 16px 32px;
+    /* color: white; */
+    margin-right: 20px;
+    cursor: pointer;
+}
+#card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.service-card{
+    background-color: white
+    padding: 100px 60px;
+    text-align: center;
+    width: 320px;
+    border-radius: 20px;
+}
+.service-card image{
+    margin-bottom: 30px;
+}
+.service-card h2{
+    margin-bottom: 20px;
+    color:black;
+    font-weight: bold;
+}
+.service-card p {
+  color: #a8a8a8;
+}
+
+#service,
+#story,
+#country,#review {
+  width: 87.5%;
+  margin: 0px auto 120px auto;
+}
+.story-card{
+  background-color: white;
+  padding: 40px;
+  border-radius: 24px;
+  display: flex;
+  gap: 20px;
+
+}
+.story-content h2,
+.story-content p,
+.story-content img,.star-review img
+{
+  margin-bottom: 30px;
+}
+#country-card-container{
+    display: flex;
+    justify-content:center ;
+    gap: 30px;
+    flex-wrap: 
+}
+#country-card-container h2 {
+  background-color: white;
+  padding: 40px;
+  border-radius: 30px;
+  border: 2px solid whitesmoke;
+}
+.review{
+  background-color: aqua;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.review-e{
+  margin-top: 30px;
+}
